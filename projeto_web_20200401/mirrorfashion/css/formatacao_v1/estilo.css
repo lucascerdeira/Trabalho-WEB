@@ -1,0 +1,790 @@
+@media screen {
+
+
+    body {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #333333;
+        background-image: url(/projeto_web_20200401/mirrorfashion/img/wallpaperbranco.png);
+
+    }
+
+    header {
+        position: relative;
+    }
+
+
+    .sobre h1 {
+        font-family: serif;
+        
+        padding: 30px 0px;
+        margin: 30px 0px;
+        color: #111; 
+        font-family: 'Open Sans Condensed', sans-serif; 
+        font-size: 30px; 
+        font-weight: 700; 
+        line-height: 35px; 
+        text-indent: 1em; 
+        text-align: left; 
+        text-transform: uppercase;
+        border-radius: 15px;
+            /*Hack compatibilidade browsers antigos*/
+            -webkit-border-radios: 15px;
+            -moz-border-radios: 15px;
+            -o-border-radios: 15px;
+            -ms-border-radios: 15px;
+
+        box-shadow: 20px 20px 20px black;
+            /*Hack compatibilidade browsers antigos*/
+            -webkit-box-shadow: 20px 20px 20px black;
+            -moz-box-shadow: 20px 20px 20px black;
+            -o-box-shadow: 20px 20px 20px black;
+            -ms-box-shadow: 20px 20px 20px black;
+
+        /*box-shadow: inset 0 0 20px black;*/
+        /*text-shadow: 20px 20px 20px red, -20px -20px 20px red;*/
+
+    }
+
+    .sobre figure {
+        background-color: #ebdddd;
+        border: 1px solid #cccccc;
+        text-align: center;
+        padding: 15px;
+        margin: 30px;
+        border-radius: 15px;
+        box-shadow: 15px 15px 15px black;
+    }
+
+    .sobre img {
+        border-radius: 5px;
+    }
+
+
+    .sobre figcaption {
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    .sobre p {
+        padding: 0 45px;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        line-height: 20px;
+        text-indent: 2em;
+        margin-bottom: 16px;
+    }
+
+    .sobre ul li {
+        padding: 0 45px;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        line-height: 20px;
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
+    .sobre p strong {
+        font-style: italic;    
+    }
+
+    #familia-pelho {
+        float: right;
+        margin: 0px 10px;
+
+    }
+
+    #centro-distribuicao {
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+    }
+
+
+
+
+    .container {
+        position: relative;
+        margin: 0 auto;
+        width: 940px;
+    }
+
+    .menu-opcoes {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .sacola {
+        background-image: url(../../img/sacola.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        font-size: 14px;
+        padding-right: 35px;
+        text-align: right;
+        width: 140px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .menu-opcoes ul li  {
+        font-size: 15px;
+        display: inline;
+        margin-left: 20px;
+        padding-top: 8px;
+        
+    }
+
+    .menu-opcoes a {
+        color: #003366;
+    }
+
+    .menu-opcoes a:hover {
+        color: #007DC6;
+    }
+        
+    .menu-opcoes a:active {
+        color: #867DC6;
+    }
+        
+
+    .busca, .menu-departamentos {
+        float:left;
+        background-color: #DCDCDC;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+        width: 230px;
+
+    }
+    
+    .menu-departamentos {
+        clear:left;
+        text-decoration: none;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu-departamentos li li a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .menu-departamentos li li  a:hover {
+        color: #007DC6;
+    }
+        
+    .menu-departamentos li li a:active {
+        color: #867DC6;
+    }
+    .menu-departamentos li li a:before {
+        content: '- ';
+    }
+        
+
+    .item-menu {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .busca h2, .busca form, .menu-departamentos h2 {
+        margin: 10px;
+    }
+
+
+    .menu-departamentos li {
+        background-color: #FFFFFF;
+        margin-bottom: 1px;
+        padding: 5px 10px;
+    }
+
+    .menu-departamentos li ul {
+    display: none;
+    }
+        
+    .menu-departamentos li:hover ul {
+
+        display: block;
+    }
+        
+    .menu-departamentos ul ul li {
+        background-color: #DCDCDC;
+    }
+        
+
+    .busca input[type=search] {
+        width: 145px;
+        border-radius: 4px;
+        border: none;
+
+    }
+
+    .banner-destaque {
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    .banner-destaque  img {
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px black;
+    }
+
+    .painel {
+        margin: 10px 0;
+        padding: 10px;
+        width: 445px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px #cccccc;
+        
+    }
+
+    .painel li {
+        transition: 0.7s ease-out;
+    }
+        
+
+    .painel li:hover {
+        background-color: rgba(184, 134, 11,0.5);
+        box-shadow: 0 0 10px #333;
+        transition: box-shadow 0.7s  ease-in;
+        transform: scale(1.2) /*rotate(-5deg)*/;
+    }
+    /*
+    .painel li:nth-child(2n):hover {
+        transform: scale(1.2) rotate(5deg);
+    }
+    */    
+        
+
+    .novidades {
+        float: left;
+        background: linear-gradient(#f5dcdc, #bebef4);
+        background-color: #f5dcdc;
+    }
+
+    .mais-vendidos {
+        float: right;
+        background: linear-gradient(#dcdcf5, #f4bebe);
+        background-color: #dcdcf5;
+    }
+
+    .painel li {
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+
+    .painel h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        text-shadow: 3px 3px 2px rgba(100,100,100,0.8);
+    }
+
+    .painel a {
+        color: #333;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    footer {
+        background-image: url(../../img/fundo-rodape.png);
+        clear: both;
+        padding: 20px 0;
+
+    }
+
+    footer .container {
+        position: relative;
+    }
+
+    .social {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+
+    .social li {
+        float: left;
+        margin-left: 25px;
+    }
+
+    .social a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .social a[href*="facebook.com"] {
+        background-image: url(../../img/facebook.png);
+    }
+    .social a[href*="twitter.com"] {
+        background-image: url(../../img/twitter.png);
+    }
+    .social a[href*="plus.google.com"] {
+        background-image: url(../../img/googleplus.png);
+    }
+
+    .busca button {
+        background-image: url(../../img/busca.png);
+        background-repeat: no-repeat;
+        border: none;
+        width: 20px;
+        height: 20px;
+        text-indent: -9999px;
+    }
+}    
+
+
+@media print {
+
+
+    body {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: red;
+        background: linear-gradient(to bottom, white, grey);
+
+    }
+
+    header {
+        position: relative;
+    }
+
+
+    .sobre h1 {
+        font-family: serif;
+        background-image: url('../../img/sobre-background.jpg');
+        padding: 30px 0px;
+        margin: 30px 0px;
+        color: #111; 
+        font-family: 'Open Sans Condensed', sans-serif; 
+        font-size: 30px; 
+        font-weight: 700; 
+        line-height: 35px; 
+        text-indent: 1em; 
+        text-align: left; 
+        text-transform: uppercase;
+        border-radius: 15px;
+            /*Hack compatibilidade browsers antigos*/
+            -webkit-border-radios: 15px;
+            -moz-border-radios: 15px;
+            -o-border-radios: 15px;
+            -ms-border-radios: 15px;
+
+        box-shadow: 20px 20px 20px black;
+            /*Hack compatibilidade browsers antigos*/
+            -webkit-box-shadow: 20px 20px 20px black;
+            -moz-box-shadow: 20px 20px 20px black;
+            -o-box-shadow: 20px 20px 20px black;
+            -ms-box-shadow: 20px 20px 20px black;
+
+        /*box-shadow: inset 0 0 20px black;*/
+        /*text-shadow: 20px 20px 20px red, -20px -20px 20px red;*/
+
+    }
+
+    .sobre figure {
+        background-color: #f2eded;
+        border: 1px solid #cccccc;
+        text-align: center;
+        padding: 15px;
+        margin: 30px;
+        border-radius: 15px;
+        box-shadow: 15px 15px 15px black;
+    }
+
+    .sobre img {
+        border-radius: 5px;
+    }
+
+
+    .sobre figcaption {
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    .sobre p {
+        padding: 0 45px;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        line-height: 20px;
+        text-indent: 2em;
+        margin-bottom: 16px;
+    }
+
+    .sobre ul li {
+        padding: 0 45px;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        line-height: 20px;
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
+    .sobre p strong {
+        font-style: italic;    
+    }
+
+    #familia-pelho {
+        float: right;
+        margin: 0px 10px;
+
+    }
+
+    #centro-distribuicao {
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+    }
+
+
+
+
+    .container {
+        position: relative;
+        margin: 0 auto;
+        width: 940px;
+    }
+
+    .menu-opcoes {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .sacola {
+        background-image: url(../../img/sacola.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        font-size: 14px;
+        padding-right: 35px;
+        text-align: right;
+        width: 140px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .menu-opcoes ul li  {
+        font-size: 15px;
+        display: inline;
+        margin-left: 20px;
+        padding-top: 8px;
+        
+    }
+
+    .menu-opcoes a {
+        color: #003366;
+    }
+
+    .menu-opcoes a:hover {
+        color: #007DC6;
+    }
+        
+    .menu-opcoes a:active {
+        color: #867DC6;
+    }
+        
+
+    .busca, .menu-departamentos {
+        float:left;
+        background-color: #DCDCDC;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+        width: 230px;
+
+    }
+    
+    .menu-departamentos {
+        clear:left;
+        text-decoration: none;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menu-departamentos li li a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .menu-departamentos li li  a:hover {
+        color: #007DC6;
+    }
+        
+    .menu-departamentos li li a:active {
+        color: #867DC6;
+    }
+    .menu-departamentos li li a:before {
+        content: '- ';
+    }
+        
+
+    .item-menu {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .busca h2, .busca form, .menu-departamentos h2 {
+        margin: 10px;
+    }
+
+
+    .menu-departamentos li {
+        background-color: #FFFFFF;
+        margin-bottom: 1px;
+        padding: 5px 10px;
+    }
+
+    .menu-departamentos li ul {
+    display: none;
+    }
+        
+    .menu-departamentos li:hover ul {
+        display: block;
+    }
+        
+    .menu-departamentos ul ul li {
+        background-color: #DCDCDC;
+    }
+        
+
+    .busca input[type=search] {
+        width: 145px;
+        border-radius: 4px;
+        border: none;
+
+    }
+
+    .banner-destaque {
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    .banner-destaque  img {
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px black;
+    }
+
+    .painel {
+        margin: 10px 0;
+        padding: 10px;
+        width: 445px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px #cccccc;
+        
+    }
+
+    .painel li {
+        transition: 0.7s ease-out;
+    }
+        
+
+    .painel li:hover {
+        background-color: rgba(184, 134, 11,0.5);
+        box-shadow: 0 0 10px #333;
+        transition: box-shadow 0.7s  ease-in;
+        transform: scale(1.2) /*rotate(-5deg)*/;
+    }
+    /*
+    .painel li:nth-child(2n):hover {
+        transform: scale(1.2) rotate(5deg);
+    }
+    */    
+        
+
+    .novidades {
+        float: left;
+        background: linear-gradient(#f5dcdc, #bebef4);
+        background-color: #f5dcdc;
+    }
+
+    .mais-vendidos {
+        float: right;
+        background: linear-gradient(#dcdcf5, #f4bebe);
+        background-color: #dcdcf5;
+    }
+
+    .painel li {
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+
+    .painel h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        text-shadow: 3px 3px 2px rgba(100,100,100,0.8);
+    }
+
+    .painel a {
+        color: #333;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    footer {
+        background-image: url(../../img/fundo-rodape.png);
+        clear: both;
+        padding: 20px 0;
+
+    }
+
+    footer .container {
+        position: relative;
+    }
+
+    .social {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+
+    .social li {
+        float: left;
+        margin-left: 25px;
+    }
+
+    .social a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .social a[href*="facebook.com"] {
+        background-image: url(../../img/facebook.png);
+    }
+    .social a[href*="twitter.com"] {
+        background-image: url(../../img/twitter.png);
+    }
+    .social a[href*="plus.google.com"] {
+        background-image: url(../../img/googleplus.png);
+    }
+
+    .busca button {
+        background-image: url(../../img/busca.png);
+        background-repeat: no-repeat;
+        border: none;
+        width: 20px;
+        height: 20px;
+        text-indent: -9999px;
+    }
+}    
+
+@media (max-width: 900px) {
+    /* adicionar aqui os novos estilos para mobile */
+    body {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #333333;
+        background: linear-gradient(to bottom, white, grey);
+
+    }
+
+    .container {
+        width: 96%;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header h1 img {
+        max-width: 50%;
+    }
+
+    .sacola {
+        display:none;
+    }
+
+    .menu-opcoes {
+        position: static;
+        text-align: center;
+    }
+
+    .menu-opcoes ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .busca,
+    .menu-departamentos,
+    .banner-destaque img {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .painel {
+        width: auto;
+    }
+
+    .painel li {
+        width: 30%;
+    }
+    .painel img {
+        width: 100%;
+    }
+
+    #centro-distribuicao {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    #centro-distribuicao img{
+        width: 100%;
+    }
+    #familia-pelho {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: auto;
+
+    }
+    #familia-pelho img{
+        width: 100%;
+
+    }
+    .sobre p {
+        padding: 0 20px;
+        height: auto;
+        text-align: justify;
+        color: #000000;
+        line-height: 20px;
+        text-indent: 2em;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .sobre ul li {
+        padding: 0 20px;
+        height: auto;
+        text-align: left;
+        color: #000000;
+        line-height: 20px;
+        list-style-type: square;
+        list-style-position: inside;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}    
